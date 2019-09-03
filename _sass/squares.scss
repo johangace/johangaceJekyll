@@ -1,0 +1,30 @@
+.squares {
+  display:flex;
+}
+
+.square-small {
+  width: 33%;
+  height: 20vh;
+  margin: 0 .5%;
+}
+
+.square1 {
+   background:#3A1C71;
+  // border: 2px solid aqua;
+} 
+
+.square2 {
+  // background: linear-gradient(to right, yellow, #e8c3b9);
+  background: linear-gradient(to right, #3A1C71,  #D76D77, #ffaf7b);
+} 
+
+.square3 {
+  background: #ffaf7b;
+} 
+
+.square-big {
+  width: 33%;
+  height: 20vh;
+  margin: 0 1%;
+
+}

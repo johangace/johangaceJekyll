@@ -1,0 +1,33 @@
+// font-family: 'Poppins', sans-serif;
+// font-family: 'Dancing Script', cursive;
+// font-family: 'Gayathri', sans-serif;
+
+* { 
+  font-family: 'Poppins', sans-serif; 
+}
+
+.center{
+  display: grid;
+  place-items: center;
+  margin: auto;
+
+}
+
+.marg-auto{
+  margin: auto;
+  display: grid;
+}
+
+
+.page-title{
+
+font-size: 6rem;
+font-weight: lighter;
+transform: rotate(270deg);
+position: absolute;
+margin-top: 33vh;
+ margin-left: auto;
+white-space: nowrap;
+ transform-origin: bottom;
+
+}

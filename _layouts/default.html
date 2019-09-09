@@ -6,17 +6,27 @@
     <script src="{{ base.url | prepend: site.url }}/assets/js/scripts.js"></script>
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Gayathri:100,400,700|Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
-  
+    <link href="https://fonts.googleapis.com/css?family=Hepta+Slab:200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/38c74bd593.js"></script>
   </head>
   <body>
-
+      
     {% include navigation.html %}
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+    
+
+    {% if  page.title == "Home" %}
+    <span style= " font-size:30px; cursor:pointer; font-weight: lighter; " onclick="openNav()">&#9776; Open</span>
+    {% else %}
+    <span style= "font-size:30px; ;cursor:pointer; font-weight: lighter; letter-spacing: 1px;; " onclick="openNav()">&#9776; JOHAN GACE</span>
+    {%endif%}
+
     {% if page.layout != "post" and page.title != "Home" %}
     <h3 class="page-title">{{ page.title | upcase  }}</h3>
-
-  
     {%endif%}
+
+    
+
     {{ content }}
 
   </body>

@@ -6,11 +6,11 @@
   font-family: 'Poppins', sans-serif; 
 }
 
+
 .center{
   display: grid;
   place-items: center;
   margin: auto;
-
 }
 
 .marg-auto{
@@ -20,7 +20,6 @@
 
 
 .page-title{
-
 font-size: 6rem;
 font-weight: lighter;
 transform: rotate(270deg);
@@ -29,5 +28,8 @@ margin-top: 33vh;
  margin-left: auto;
 white-space: nowrap;
  transform-origin: bottom;
+}
 
+.post-categories a {
+  text-decoration: none;
 }

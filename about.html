@@ -2,6 +2,39 @@
 layout: default
 title: About
 ---
-# About page
+<div class="about-container "> 
+  
+<div class= "about-description" >
 
-This page tells you a little bit about me.
+<div class= "about-header"> 
+    <h1> Say Hi. </h1>
+    <p> I would love to learn about your projects.</p>
+  
+
+  <h2><a href="{{ site.data.social-media.email.href }}{{ site.data.social-media.email.id }}"> hello@johangace.com </a>   </h2>
+  <a href="{{ site.data.social-media.email.href }}{{ site.data.social-media.email.id }}" title="Email me">
+    <i class="{{site.data.social-media.email.fa-icon}}"></i> 
+    </a>
+</div>
+
+ 
+  <div class=" about-me"> 
+  <p> Driven by curiosity and the love of craft, I enjoy making <br> beautiful and bold Web Applications. </p>
+  <p> 
+    Johan Gace <br>  Miami, FL</p>
+  </div>
+  
+      {% include social-media.html %}
+   
+</div>
+
+<div class="about-pic">  
+  <img src="/assets/main.jpeg" alt="">
+</div>
+
+</div>
+
+
+
+
+  

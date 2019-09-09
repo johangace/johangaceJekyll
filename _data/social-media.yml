@@ -1,0 +1,36 @@
+email:
+  id: 'hello@johangace.com'
+  href: 'mailto:'
+  title: 'Email'
+  fa-icon: 'media far fa-envelope'
+
+
+github:
+  id: 'johangace'
+  href: 'https://github.com/'
+  title: 'GitHub'
+  fa-icon: ' media fab fa-github'
+
+linkedin:
+  id: 'gacejohan'
+  href: 'https://linkedin.com/in/'
+  title: 'linkedin'
+  fa-icon: ' media fab fa-linkedin'
+  
+twitter:
+  id: 'JohanGace'
+  href: 'https://twitter.com/' 
+  title: 'Twitter'
+  fa-icon: 'media  fab fa-twitter'
+
+instagram:
+  id: 'instagace'
+  href: 'https://intstagram.com/'
+  title: 'Instagram'
+  fa-icon: ' media fab fa-instagram'
+
+
+
+
+
+

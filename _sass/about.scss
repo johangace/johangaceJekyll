@@ -1,0 +1,81 @@
+.about-container {
+  position: absolute;
+  width: 80%;
+  display: grid;
+  place-items: center;
+  grid-template-columns: auto auto ;
+  margin-left: 12%;
+  margin-top: 3%;
+}
+
+
+.about-pic img{
+margin-top: 2%;
+width: 72vh;
+height: 81vh;
+overflow: hidden;
+object-fit: cover;
+opacity: .95;
+margin-left: auto;
+}
+
+.about-description {
+  padding-right: 12%;
+  text-align: center;
+  margin-top: -10%;
+}
+
+.about-header { 
+  
+}
+.about-header h1 {
+  font-size: 5rem;
+  margin-bottom: -5%;
+}
+
+.about-header p {
+  font-size: 1rem;
+  font-weight: light;
+} 
+
+
+.about-me {
+  margin-top: 25vh;
+  font-size: 1rem;
+  font-weight: light;
+  text-align: center;
+  margin-top: 8vh;
+}
+
+#social-media {
+margin-top: 4vh;
+text-align: center;
+
+}
+
+@media screen and (max-width: 1670px) {
+  .about-description {
+  
+    padding-left: 15%;
+    margin-right: 10%;
+  }
+
+  .about-pic img{
+  width: 65vh;
+  height: 73vh;
+  }
+  }
+
+
+@media screen and (max-width: 1200px) {
+  
+.about-pic img{
+  width: 62vh;
+  height: 70vh;
+overflow: hidden;
+object-fit: cover;
+opacity: .95;
+margin-left: auto;
+  }
+    
+}

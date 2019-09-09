@@ -3,19 +3,44 @@ layout: default
 title: Blog
 ---
 
-{% for cat in site.categories %}
-<h3><a href="{{site.baseurl}}/categories/{{cat[0]}}"> {{cat[0]}}</a></h3>
+<!-- 
+<h1 class= "page-topic" >Latest Posts</h1> -->
+
+<!-- {% for cat in site.categories %}
+<div class="categories-list"> 
+<li><a  href="{{site.baseurl}}/categories/{{cat[0]}}"> {{cat[0]}}</a></li>
 {% endfor %}
+</div> -->
+<div class= " center"> 
 
-
-
-<h1>Latest Posts</h1>
-<ul>
+<ul class= "list">
   {% for post in site.posts %}
-    <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>  <h4>{{ post.category }} </h4>
-      <p>{{ post.excerpt }}</p>
-    </li>
+    <li >
+      <div class="blog-container">
+       <a href="{{ post.url }}" > <img class="blog-pic"  src="{{ post.image| prepend: site.baseurl }}"  alt="{{ post.title }}" title="{{ post.title }}"></a>
+        <div class="blog-description">
+      <h2 class="post-title"> <a   href="{{ post.url }}">{{ post.title }}</a></h2> 
+
+      <p>{{ post.date | date_to_string }} </p>
+       <div class="post-categories">
+        {% if post %}
+          {% assign categories = post.categories %}
+        {% else %}
+          {% assign categories = page.categories %}
+        {% endif %}
+        {% for category in categories %}
+        <a href="{{site.baseurl}}/categories/{{category|slugize}}">{{category}}</a>
+        {% unless forloop.last %}&nbsp;{% endunless %}
+        {% endfor %}
+      </div>
+
+      <p class="paragraph" > {{ post.excerpt | strip_html | strip_newlines | truncate: 140}}  </p>
+     
+      <hr>
   {% endfor %}
+</div>
+</li>
 </ul>
 
+</div> 
+</div>

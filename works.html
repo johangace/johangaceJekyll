@@ -6,12 +6,17 @@ title: Work
 <!-- <h1 class="project-title">Portfolio </h1> -->
 <div class="projects-container"> 
 {% for post in site.categories.Project %}
-  <li class="project-card" >
+  <li  class="project-card">
+      <!-- <a class="lay project-name" href="{{ post.url }}"> <h1>{{ post.title }} </h1></a>    -->
+    <div > 
    <a href="{{ post.url }}" > <img class="projects-pic"  src="{{ post.image| prepend: site.baseurl }}"  alt="{{ post.title }}" title="{{ post.title }}"></a>
+   <!-- <h1 class=" lay proj-name">{{ post.title }} </h1> -->
+ 
     <!-- <span>{{ post.date | date_to_string }}</span> &nbsp;  -->
-
-   <a class="overlay project-name" href="{{ post.url }}">{{ post.title }}</a>
-  </li>
+   
+   <a class="overlay project-name" href="{{ post.url }}"> <h1>{{ post.title }} </h1><p> {{ post.excerpt | strip_html | strip_newlines | truncate: 140}} </p></a>
+  </div>
+  
 {% endfor %}
 </div>
 

@@ -17,6 +17,7 @@ overflow: hidden;
 object-fit: cover;
 opacity: .95;
 margin-left: auto;
+filter: brightness(80%);
 }
 
 .about-description {
@@ -63,6 +64,7 @@ text-align: center;
   .about-pic img{
   width: 65vh;
   height: 73vh;
+  filter: brightness(75%);
   }
   }
 

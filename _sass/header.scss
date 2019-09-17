@@ -1,18 +1,48 @@
 .kicker {
-font-size: 4rem;
-font-family: 'Dancing Script', cursive;
-font-weight: 100;
+font-size: 5rem;
+font-weight: 600;
+text-decoration: none;
+color: #4D4D4D;
+
 }
 
 .name {
   font-size: 2rem;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 1rem;
+  
 }
 
 .header {
-  margin-top: 25vh;
+  margin-top: 15vh;
   height: 70vh;
+ 
 }
+
+.footer{
+
+  background: black;
+  margin-top: 25vh;
+  height: 30vh;
+}
+
+ 
+@media screen and (max-width:970px) { 
+
+.name {
+  font-size: 1rem;
+  font-weight: 200;
+  letter-spacing: 1rem; 
+  
+}
+
+.kicker {
+  font-size: 2rem;
+  font-weight: 700;
+  text-decoration: none;
+  color:#4D4D4D;
+  }
+}
+
 
 

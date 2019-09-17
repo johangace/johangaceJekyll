@@ -1,7 +1,7 @@
 
 
 .blog-container {
-  margin-bottom: 10%;
+  // margin-bottom: 10%;
   width: 80%;
   height: 80%;
   // margin-left: 15%;
@@ -15,6 +15,7 @@
    object-fit: cover;
    opacity: .95;
    margin-left: auto;
+   filter: brightness(70%);
 
   }
   
@@ -22,6 +23,7 @@
     -webkit-transform: scale(1.04);
     transition: .4s;
     opacity: 1;   
+    filter: brightness(88%);
   }
 
   .list li {
@@ -44,10 +46,15 @@
   }
 
 
+  .post-categories a {
+    color:gray;
+  }
+
   .categories-list {
     place-items: center;
     display: grid;
      text-decoration: none;
+  
     
   }
 

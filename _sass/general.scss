@@ -21,7 +21,7 @@
 
 .page-title{
 font-size: 6rem;
-font-weight: lighter;
+font-weight: 200;
 transform: rotate(270deg);
 position: absolute;
 margin-top: 33vh;
@@ -31,6 +31,7 @@ white-space: nowrap;
 }
 
  a {
-  text-decoration: none;
-  color: gray;
+   text-decoration: none;
+  color: #6A6A6A;
+  font-weight: 600;
 }

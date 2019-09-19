@@ -4,11 +4,13 @@ title:  SearchBAR App
 category: Project
 image: /assets/searchbar.png
 ---
-SearchBAR App is the Bartender's cheatsheet to unique cocktails. [Link to App](https://the-search-bar.herokuapp.com/)
+<h3>SearchBAR App is the Bartender's cheatsheet to unique cocktails. </h3>
+<!-- 
+ width="853" height="480"  -->
 
-<iframe  width="560" height="315" src="https://www.youtube.com/embed/0up5nOnh2Xk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>" 
+<iframe class="post-video" src="https://www.youtube.com/embed/0up5nOnh2Xk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
+[Link to App](https://the-search-bar.herokuapp.com/)
 
 Features: 
 * Search For Cocktail Recipes. 

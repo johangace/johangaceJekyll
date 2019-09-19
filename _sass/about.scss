@@ -64,7 +64,7 @@ text-align: center;
   .about-pic img{
   width: 65vh;
   height: 73vh;
-  filter: brightness(75%);
+  filter: brightness(82%);
   }
   }
 
@@ -72,12 +72,13 @@ text-align: center;
 @media screen and (max-width: 1200px) {
   
 .about-pic img{
-  width: 62vh;
-  height: 70vh;
+  width: 22vh;
+  height: 75vh;
 overflow: hidden;
 object-fit: cover;
 opacity: .95;
-margin-left: auto;
+margin-left: -7vh;
+filter: brightness(82%);
   }
     
 }

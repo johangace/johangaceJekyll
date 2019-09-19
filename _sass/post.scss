@@ -12,3 +12,19 @@
   padding: 2vh;
   margin: 0 20vh;
 }
+.post-video {
+  height: 500px;
+  width: 700px;
+}
+
+@media screen and (max-width:970px) { 
+  .content {
+    font-size: 1rem;
+    padding: 1vh;
+    margin: 0 10vh;
+  }
+  .post-video {
+    height: 300px;
+    width: 400px;
+  }
+}

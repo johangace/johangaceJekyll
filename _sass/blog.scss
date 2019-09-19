@@ -15,7 +15,7 @@
    object-fit: cover;
    opacity: .95;
    margin-left: auto;
-   filter: brightness(70%);
+   filter: brightness(80%);
 
   }
   
@@ -23,7 +23,7 @@
     -webkit-transform: scale(1.04);
     transition: .4s;
     opacity: 1;   
-    filter: brightness(88%);
+    filter: brightness(90%);
   }
 
   .list li {
@@ -60,7 +60,7 @@
 
   @media screen and (max-width:1060px) {
     .blog-container {
-    margin-left: 20%;
+    margin-left: 10%;
   }
 
 

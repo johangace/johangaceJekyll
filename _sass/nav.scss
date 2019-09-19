@@ -7,30 +7,30 @@
 // Navbar side
 .sidenav {
   height: 100%;
-  width: 0;
+  width: 24vh;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: #111111;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
-  font-weight: lighter;
+  font-weight: bold;
 }
 
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 25px;
-  color: #818181;
+  font-size: 2rem;
+  color: #818180;
   display: block;
   transition: 0.3s;
-  font-weight: lighter;
+  font-weight: 400;
 }
 
 .sidenav a:hover {
-  color: #f1f1f1;
+  color:  white;
 }
 
 .sidenav .closebtn {

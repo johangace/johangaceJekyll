@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  JohanGace.com
+title:  Portfolio <br> Site
 categories: [Project]
 
 image: /assets/johangace.jpeg

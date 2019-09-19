@@ -9,22 +9,14 @@
 
 .content {
   font-size: 1rem;
-  padding: 2vh;
-  margin: 0 20vh;
-}
-.post-video {
-  height: 500px;
-  width: 700px;
+  margin: 0 10vh;
 }
 
-@media screen and (max-width:970px) { 
+@media screen and (max-width:1170px) { 
   .content {
     font-size: 1rem;
     // padding: 1vh;
-    margin: 0 4vh;
+    margin: 0 ;
   }
-  .post-video {
-    height: 300px;
-    width: 400px;
-  }
+
 }

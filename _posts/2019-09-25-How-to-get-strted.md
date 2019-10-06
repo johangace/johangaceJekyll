@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  How to get started with Coding
+title:  How to get started with Coding Part 1
 categories: [Coding]
 image: /assets/coding.jpeg
 ---
@@ -74,5 +74,5 @@ This book is for whoever has decided to become a programmer. John will guide you
 Probably the most popular coding Podcast among newbies. The title is self-explanatory. 
 
 
-
+In my next post, I will write about diving deeper and getting serious with coding. Stay tuned!
 

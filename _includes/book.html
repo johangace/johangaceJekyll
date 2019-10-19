@@ -1,0 +1,15 @@
+
+{% if site.data.books%}
+{% assign books = site.data.books %}
+{% for book in books %}
+
+{{book.link}}
+{{book.title}}
+<br>
+ by {{book.author}}
+{{book.review}}
+
+{%endfor%}
+{% endif %}
+
+

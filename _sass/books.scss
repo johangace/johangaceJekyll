@@ -1,0 +1,80 @@
+.recommended {
+  font-size: 2rem;
+  color: gray;
+  margin: 2% auto auto 10%;
+}
+
+.books-container{
+  width: 90%;
+  height: 80%;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin: 2% auto 0 8%;
+  overflow: auto;
+}
+
+.book-pic img{
+  text-align: center;
+  display: flex;
+  margin: 10px auto auto auto;
+}
+
+.book-pic:hover img{
+  -webkit-transform: scale(1.04);
+  transition: .4s;
+  opacity: 1;   
+  filter: brightness(90%);
+} 
+
+.book-card {
+  height: 450px;
+}
+
+.book-title {
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.book-author {
+  text-align: center;
+}
+
+.allbooks-container {
+  margin: 2% auto auto 8%;
+  display: flex;
+}
+
+.challenge-container {
+  margin: 5% auto auto 7%;
+  display: flex;
+}
+
+
+.gr_grid_container {
+  /* customize grid container div here. eg: width: 500px; */
+}
+
+.gr_grid_book_container {
+  /* customize book cover container div here */
+  float: left;
+  width: 110px;
+  height: 160px;
+  padding: 0px 0px;
+  overflow: hidden;
+}
+
+
+
+@media screen and (max-width: 1320px) {
+  .books-container , .allbooks-container  {
+    margin: 5% auto auto 21%;
+    }
+
+    .recommended, .challenge-container{
+      margin: 15% auto auto 25%;
+    }
+  }
+
+
+

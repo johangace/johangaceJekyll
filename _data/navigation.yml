@@ -6,4 +6,5 @@
   link: /blog.html
 - name: ABOUT
   link: /about.html
-
+- name: BOOKS
+  link: /books.html

@@ -1,0 +1,21 @@
+
+<h1 class= "recommended"> Recommended Books: </h1>
+<div class= "books-container"> 
+{% if site.data.books%}
+{% assign books = site.data.favebooks %}
+{% for book in books %} 
+
+<div class="book-card" style="width: 15rem;">
+		<div class="book-pic">  {{book.link}}</div>
+		<div class="card-body">
+			<h5 class="book-title">{{book.title}} </h5>
+			<p class="book-author"> by {{book.author}}</p>
+		</div>
+		
+		<div class="card-body">
+			{{book.review}}
+		</div>
+	</div>
+	{%endfor%}
+{% endif %}
+</div>

@@ -4,7 +4,8 @@
   link: /works.html
 - name: BLOG
   link: /blog.html
-- name: ABOUT
-  link: /about.html
 - name: BOOKS
   link: /books.html
+- name: ABOUT
+  link: /about.html
+

@@ -13,7 +13,12 @@
   margin: 2% auto 0 8%;
   overflow: auto;
 }
+.gr_grid_book_container:hover {
+  -webkit-transform: scale(1.15);
+  transition: .4s;
+  opacity: 1;   
 
+}
 .book-pic img{
   text-align: center;
   display: flex;
@@ -46,7 +51,7 @@
 }
 
 .challenge-container {
-  margin: 5% auto auto 7%;
+  margin: 5% 2% 4% 9.5%;
   display: flex;
 }
 

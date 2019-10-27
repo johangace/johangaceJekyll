@@ -29,6 +29,12 @@ instagram:
   title: 'Instagram'
   fa-icon: ' media fab fa-instagram'
 
+  goodreads:
+  id: '33277000-johan'
+  href: 'https://www.goodreads.com/user/show/'
+  title: 'Goodreads'
+  fa-icon: ' media fab fa-goodreads'
+
 
 
 

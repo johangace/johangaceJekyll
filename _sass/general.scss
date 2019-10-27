@@ -6,7 +6,6 @@
   font-family: 'Poppins', sans-serif; 
 }
 
-
 .center{
   display: grid;
   place-items: center;
@@ -31,8 +30,12 @@ white-space: nowrap;
 }
 
  a {
-   text-decoration: none;
+  text-decoration: none;
   color: #6A6A6A;
   font-weight: 600;
   
+}
+a:hover {
+  text-decoration: none;
+
 }

@@ -6,12 +6,11 @@
 
 .books-container{
   width: 90%;
-  height: 80%;
-  display: grid;
+  height: 100%;
+  display: flex;
   place-items: center;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   margin: 2% auto 0 8%;
-  overflow: auto;
+  overflow-x: scroll;
 }
 .gr_grid_book_container:hover {
   -webkit-transform: scale(1.15);
@@ -22,7 +21,8 @@
 .book-pic img{
   text-align: center;
   display: flex;
-  margin: 10px auto auto auto;
+  margin: 10px 11px 0px 10px;
+
 }
 
 .book-pic:hover img{

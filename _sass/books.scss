@@ -45,7 +45,7 @@
 }
 
 .allbooks-container {
-  margin: 2% auto auto 8%;
+  margin: 8% auto 0 8%;
   display: flex;
 }
 
@@ -70,7 +70,7 @@
 @media screen and (max-width: 1220px) {
   .books-container,
   .allbooks-container {
-    margin-left: 25%;
+    margin-left: 20%;
   }
 
   .recommended,

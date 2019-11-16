@@ -4,33 +4,32 @@
   margin: 2% auto auto 10%;
 }
 
-.books-container{
+.books-container {
   width: 90%;
-  height: 100%;
+  height: 80%;
   display: flex;
   place-items: center;
-  margin: 2% auto 0 8%;
-  overflow-x: scroll;
+  // margin: 20% auto 0 0%;
+  margin-left: 10%;
+  overflow: auto;
 }
 .gr_grid_book_container:hover {
   -webkit-transform: scale(1.15);
-  transition: .4s;
-  opacity: 1;   
-
+  transition: 0.4s;
+  opacity: 1;
 }
-.book-pic img{
+.book-pic img {
   text-align: center;
   display: flex;
   margin: 10px 11px 0px 10px;
-
 }
 
-.book-pic:hover img{
+.book-pic:hover img {
   -webkit-transform: scale(1.04);
-  transition: .4s;
-  opacity: 1;   
+  transition: 0.4s;
+  opacity: 1;
   filter: brightness(90%);
-} 
+}
 
 .book-card {
   height: 450px;
@@ -51,10 +50,9 @@
 }
 
 .challenge-container {
-  margin: 5% 2% 4% 9.5%;
+  margin: 5% 2% 2% 9.5%;
   display: flex;
 }
-
 
 .gr_grid_container {
   /* customize grid container div here. eg: width: 500px; */
@@ -69,17 +67,14 @@
   overflow: hidden;
 }
 
-
-
-@media screen and (max-width: 1320px) {
-  .books-container , .allbooks-container  {
-    margin: 5% auto auto 21%;
-    }
-
-    .recommended, .challenge-container{
-      margin: 10% auto auto 25%;
-    }
+@media screen and (max-width: 1520px) {
+  .books-container,
+  .allbooks-container {
+    margin-left: 25%;
   }
 
-
-
+  .recommended,
+  .challenge-container {
+    margin: 10% auto auto 25%;
+  }
+}
